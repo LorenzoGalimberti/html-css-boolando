@@ -28,13 +28,26 @@
 .f_row_gap_40{
     row-gap: 40px;
 }
-
+.f_d_column{
+    flex-direction: column;
+}
+/* paddings */
+.pb_10{
+    padding-bottom: 10px;
+}
+.pb_5{
+    padding-bottom: 5px;
+}
 /* margins */
-
+.ml_10{
+    margin-left: 10px;
+}
 .mr_10{
     margin-right: 10px;
 }
-
+.mt_5{
+    margin-top: 5px;
+}
 .mt_10vh{
     margin-top: 10vh;
 }
@@ -50,4 +63,12 @@
 
 .centered_text{
     text-align: center
+}
+
+.small_text{
+    font-size: 0.8em;
+}
+
+.red_font{
+    color: red;
 }
