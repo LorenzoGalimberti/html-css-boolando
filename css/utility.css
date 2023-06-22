@@ -48,6 +48,9 @@
 .mt_5{
     margin-top: 5px;
 }
+.mt_10{
+    margin-top: 10px;
+}
 .mt_10vh{
     margin-top: 10vh;
 }
@@ -66,9 +69,12 @@
 }
 
 .small_text{
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
 .red_font{
     color: red;
+}
+.white_font{
+    color: white;
 }
