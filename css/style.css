@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: orange;
+    height: 10vh;
+    
+}
+
+#navbar .nav_item{
+    width: 15vw;
+    background-color: red;
+}
+#navbar_logo{
+    height: 5vh;
+
+    display: inline-block;
+    margin-top:2.5vh ;
+
+}
+.category{
+    color: white;
+}

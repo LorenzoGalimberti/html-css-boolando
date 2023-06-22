@@ -1,0 +1,31 @@
+/* flex */
+.flex{
+    display: flex;
+}
+
+.f_evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.f_center{
+    display: flex;
+    justify-content: center;
+}
+
+.f_center_both{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* margins */
+
+.mr_10{
+    margin-right: 10px;
+}
+
+
+
+/* fonts */
+
