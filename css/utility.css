@@ -2,7 +2,13 @@
 .flex{
     display: flex;
 }
-
+.f_space_between{
+    display: flex;
+    justify-content: space-between;
+}
+.f_wrap{
+    flex-wrap: wrap;
+}
 .f_evenly{
     display: flex;
     justify-content: space-evenly;
@@ -19,13 +25,29 @@
     align-items: center;
 }
 
+.f_row_gap_40{
+    row-gap: 40px;
+}
+
 /* margins */
 
 .mr_10{
     margin-right: 10px;
 }
 
+.mt_10vh{
+    margin-top: 10vh;
+}
+.mt_5vh{
+    margin-top: 5vh;
+}
 
+.mb_20{
+    margin-bottom: 20px;
+}
 
 /* fonts */
 
+.centered_text{
+    text-align: center
+}
