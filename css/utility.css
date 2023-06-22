@@ -2,6 +2,16 @@
 .flex{
     display: flex;
 }
+.f_column{
+    flex-direction: column;
+}
+.f_end{
+    display: flex;
+    justify-content: flex-end;
+}
+.f_align_center{
+    align-items: center;
+}
 .f_space_between{
     display: flex;
     justify-content: space-between;
@@ -42,6 +52,18 @@
 .ml_10{
     margin-left: 10px;
 }
+.ml_40{
+    margin-left: 40px;
+}
+.ml_100{
+    margin-left: 100px;
+}
+.ml_auto{
+    margin-left: auto;
+}
+.mr_0{
+    margin-right: 0;
+}
 .mr_10{
     margin-right: 10px;
 }
@@ -71,7 +93,9 @@
 .small_text{
     font-size: 0.7em;
 }
-
+.big_text{
+    font-size: 1.2em;
+}
 .red_font{
     color: red;
 }

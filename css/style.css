@@ -26,7 +26,15 @@ body{
     width: 60%;
     margin: 10vh auto;
 }
-
+#footer{
+    background-color: rgb(26, 26, 26);
+    height: 10vh;
+    color: white;
+    
+}
+#footer_logos{
+    position:relative
+}
 .category{
     color: white;
 }
@@ -38,4 +46,14 @@ body{
 }
 .card_image{
     width: 100%;
+}
+
+.footer_section{
+    height: 8vh;
+    width: 22%;
+}
+
+.footer_right{
+    position: absolute;
+    right: 0;
 }
